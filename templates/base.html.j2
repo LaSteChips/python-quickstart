@@ -1,0 +1,16 @@
+<!--Les petites solutions de Lub1, utiliser "ctrl + /"-->
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-ua-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<Title>{% block title %}{% endblock %}</Title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/normalize.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='../../../images/alastor.png') }}">
+</head>
+<body>
+	{% block body %}{% endblock %}
+</body>
+</html>
